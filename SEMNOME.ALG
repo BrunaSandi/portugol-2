@@ -6,24 +6,24 @@ Algoritmo "semnome"
 // Data atual  : 05/09/2023
 Var
 // Seção de Declarações das variáveis 
-primeiro_num, segundo_num:real
-
+nota:real
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, e
-escreval("Digite primeiro valor para primeiro_num ")
-leia(primeiro_num)
-escreval("")
- escreval("Digite segundo valor para segundo_num ")
-leia(segundo_num)
-escreval("")
+// seção de comando, procedimento, funções, operadores, ect...
+escreval ("qual a nota do aluno? ")
+leia (nota)
+
+se (nota >=6) entao
+    escreval("aprovado!")
+    
+senao
+   se(nota < 6) entao
+   escreval ("recuperação")
+   
+ fimse
 
 
-escreval("o valor da soma e:",primeiro_num+segundo_num)
-escreval(" o valor da subtracao e: ",primeiro_num-segundo_num)
- escreval(" o valor da multiplicatacao e: ",primeiro_num*segundo_num)
- escreval(" o valor da divisao e: ",primeiro_num/segundo_num)
-
+fimse
 
 Fimalgoritmo
